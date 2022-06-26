@@ -1,0 +1,59 @@
+html{
+    height: 100%;
+    background-color: rgb(152, 197, 253);
+}
+ul,li{list-style: none;}
+
+.topTitle{
+    font-size: 80px;
+    font-family: 'Stick No Bills', sans-serif;
+
+    color: white;
+    margin-left: 10%;
+}
+
+.takenPhoto_List{
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.takenPhoto{
+    width: 50%;
+    /* display: block; */
+}
+
+.shootingbuttonContainer{
+	text-align: center;
+}
+
+.shootingbutton:active{
+    background-color: rgb(101, 147, 255);
+}
+
+input{
+	display:none;
+}
+
+.shootingbutton{
+    border: none;
+	outline: none;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    padding: 5px 50px;
+    margin: 0px auto;
+
+    border-radius: 35px;
+
+    color: white;
+    background-color: rgb(57, 116, 254);
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
